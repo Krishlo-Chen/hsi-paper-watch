@@ -1,0 +1,41 @@
+name: Daily HSI paper discovery
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 00:35 UTC = 09:35 JST. Avoid the top of the hour to reduce queue delay risk.
+    - cron: "35 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Tokyo
+      HSI_DAYS_BACK: "14"
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run discovery
+        run: python scripts/discover_hsi.py --days-back "$HSI_DAYS_BACK"
+
+      - name: Commit discovery updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data papers reports
+          if git diff --cached --quiet; then
+            echo "No discovery updates to commit."
+          else
+            git commit -m "chore: daily HSI discovery $(date +%F)"
+            git push
+          fi

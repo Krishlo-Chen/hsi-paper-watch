@@ -1,0 +1,15 @@
+{
+  "explicit_title_exclusions": [
+    "EmbodMocap: In-the-Wild 4D Human-Scene Reconstruction for Embodied Agents"
+  ],
+  "duplicate_sources": {
+    "awesome_human_motion": {
+      "name": "Awesome-Human-Motion",
+      "homepage": "https://foruck.github.io/Awesome-Human-Motion/",
+      "raw_readme_candidates": [
+        "https://raw.githubusercontent.com/Foruck/Awesome-Human-Motion/main/README.md",
+        "https://raw.githubusercontent.com/Foruck/Awesome-Human-Motion/master/README.md"
+      ]
+    }
+  }
+}

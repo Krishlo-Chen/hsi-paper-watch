@@ -1,0 +1,39 @@
+[
+  {
+    "id": "arxiv:2601.20835",
+    "title": "Open-Vocabulary Functional 3D Human-Scene Interaction Generation",
+    "short_name": "FunHSI",
+    "authors": [
+      "Jie Liu",
+      "Yu Sun",
+      "Alpar Cseke",
+      "Yao Feng",
+      "Nicolas Heron",
+      "Michael J. Black",
+      "Yan Zhang"
+    ],
+    "submitted": "2026-01-28T18:34:25Z",
+    "last_revised": "2026-01-30T16:39:55Z",
+    "discovered_on": "2026-05-15",
+    "source": "arXiv",
+    "paper_url": "https://arxiv.org/abs/2601.20835",
+    "pdf_url": "https://arxiv.org/pdf/2601.20835",
+    "code": {
+      "status": "not_confirmed",
+      "url": null,
+      "notes": "Initial search did not confirm an official public GitHub repository. Keep checking during daily runs."
+    },
+    "duplicate_filter": {
+      "awesome_human_motion": "not_found_in_current_review",
+      "explicit_exclusions": "not_excluded"
+    },
+    "tags": [
+      "HSI",
+      "3D human-scene interaction",
+      "open-vocabulary",
+      "functional interaction",
+      "training-free"
+    ],
+    "notes": "Training-free framework for functionally correct 3D human-scene interaction generation from open-vocabulary task prompts."
+  }
+]

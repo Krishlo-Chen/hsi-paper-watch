@@ -1,0 +1,27 @@
+{
+  "timezone": "Asia/Tokyo",
+  "default_days_back": 14,
+  "max_results_per_query": 50,
+  "arxiv_queries": [
+    "all:\"human-scene interaction\"",
+    "all:\"human scene interaction\"",
+    "all:\"3D human-scene\"",
+    "all:\"scene-aware human motion\"",
+    "all:\"scene-conditioned human motion\"",
+    "all:\"human-scene contact\"",
+    "all:\"human-object interaction\" AND all:\"3D scene\""
+  ],
+  "relevance_keywords": [
+    "human-scene interaction",
+    "human scene interaction",
+    "3d human-scene",
+    "scene-aware human",
+    "scene-conditioned human",
+    "human-scene contact",
+    "human-object interaction",
+    "3d scene",
+    "hsi"
+  ],
+  "code_search_enabled": true,
+  "code_search_top_k": 5
+}
