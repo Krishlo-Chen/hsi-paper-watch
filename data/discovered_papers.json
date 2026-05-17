@@ -1,40 +1,62 @@
 [
   {
-    "id": "arxiv:2601.20835",
-    "title": "Open-Vocabulary Functional 3D Human-Scene Interaction Generation",
-    "short_name": "FunHSI",
+    "id": "arxiv:2605.05756v1",
+    "title": "MaMi-HOI: Harmonizing Global Kinematics and Local Geometry for Human-Object Interaction Generation",
+    "short_name": null,
     "authors": [
-      "Jie Liu",
-      "Yu Sun",
-      "Alpar Cseke",
-      "Yao Feng",
-      "Nicolas Heron",
-      "Michael J. Black",
-      "Yan Zhang"
+      "Hao Wang",
+      "Shiqi Wang",
+      "Qi Liu"
     ],
-    "submitted": "2026-01-28T18:34:25Z",
-    "last_revised": "2026-01-30T16:39:55Z",
-    "discovered_on": "2026-05-15",
+    "submitted": "2026-05-07T06:52:14Z",
+    "last_revised": "2026-05-07T06:52:14Z",
+    "discovered_on": "2026-05-17",
     "source": "arXiv",
-    "paper_url": "https://arxiv.org/abs/2601.20835",
-    "pdf_url": "https://arxiv.org/pdf/2601.20835",
+    "paper_url": "http://arxiv.org/abs/2605.05756v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.05756v1",
     "code": {
-      "status": "not_confirmed",
-      "url": null,
-      "notes": "Initial search did not confirm an official public GitHub repository. Keep checking during daily runs."
+      "status": "candidates_found",
+      "url": "https://github.com/Foruck/Awesome-Human-Motion",
+      "candidates": [
+        {
+          "full_name": "Foruck/Awesome-Human-Motion",
+          "url": "https://github.com/Foruck/Awesome-Human-Motion",
+          "description": "An aggregation of human motion understanding research. ",
+          "stars": 283,
+          "updated_at": "2026-05-15T09:20:27Z"
+        },
+        {
+          "full_name": "Ponkux/DailyArXiv-cp",
+          "url": "https://github.com/Ponkux/DailyArXiv-cp",
+          "description": "copied from https://github.com/zezhishao/DailyArXiv",
+          "stars": 6,
+          "updated_at": "2026-05-16T05:28:19Z"
+        },
+        {
+          "full_name": "DON738110198/MaMi-HOI",
+          "url": "https://github.com/DON738110198/MaMi-HOI",
+          "description": "Official Implementation of the Paper: MaMi-HOI: Harmonizing Global Kinematics and Local Geometry for Human-Object Interaction Generation (ICML 2026)",
+          "stars": 4,
+          "updated_at": "2026-05-11T07:07:40Z"
+        },
+        {
+          "full_name": "suruoxi/WorldModel-VLA-arxiv-daily",
+          "url": "https://github.com/suruoxi/WorldModel-VLA-arxiv-daily",
+          "description": "World Model and VLA related arxiv papers",
+          "stars": 0,
+          "updated_at": "2026-05-16T05:23:00Z"
+        }
+      ]
     },
     "duplicate_filter": {
-      "awesome_human_motion": "not_found_in_current_review",
+      "awesome_human_motion": "not_found",
       "explicit_exclusions": "not_excluded"
     },
     "tags": [
       "HSI",
-      "3D human-scene interaction",
-      "open-vocabulary",
-      "functional interaction",
-      "training-free"
+      "human-scene interaction"
     ],
-    "notes": "Training-free framework for functionally correct 3D human-scene interaction generation from open-vocabulary task prompts."
+    "summary": "Generating realistic 3D Human-Object Interactions (HOI) is a fundamental task for applications ranging from embodied AI to virtual content creation, which requires harmonizing high-level semantic intent with strict low-level physical constraints. Existing methods excel at semantic alignment, however, they struggle to maintain precise object contact. We reveal a key finding termed \\textit{Geometric Forgetting}: as diffusion model depth increases, semantic feature tend to overshadow object geometry feature, causing the model to lose its perception to object geometry. To address this, we propose MaMi-HOI, a hierarchical framework reconciling \\textbf{Ma}cro-level kinematic fluidity with \\textbf{Mi}cro-level spatial precision. First, to counteract geometric forgetting, we introduce the Geometry-Aware Proximity Adapter (GAPA), which explicitly re-injects dense object details to perform residual snapping corrections for precise contact. Nevertheless, such aggressive local enforcement can disrupt global dynamics, leading to robotic stiffness. In response, we introduce the Kinematic Harmony Adapter (KHA), which proactively aligns whole-body posture with spatial objectives, ensuring the skeleton actively accommodates constraints without compromising naturalness. Extensive experiments validate that MaMi-HOI simultaneously achieves natural motion and precise contact. Crucially, it extends generation capabilities to long-term tasks with complex trajectories, effectively bridging the gap between global navigation and high-fidelity manipulation in 3D scenes. Code is available at https://github.com/DON738110198/MaMi-HOI.git"
   },
   {
     "id": "arxiv:2604.19923",
@@ -140,6 +162,43 @@
       "controllable generation",
       "training-free"
     ],
-    "notes": "Training-free long-form human-scene interaction video generation from a scene image, character references, and task text." 
+    "notes": "Training-free long-form human-scene interaction video generation from a scene image, character references, and task text."
+  },
+  {
+    "id": "arxiv:2601.20835",
+    "title": "Open-Vocabulary Functional 3D Human-Scene Interaction Generation",
+    "short_name": "FunHSI",
+    "authors": [
+      "Jie Liu",
+      "Yu Sun",
+      "Alpar Cseke",
+      "Yao Feng",
+      "Nicolas Heron",
+      "Michael J. Black",
+      "Yan Zhang"
+    ],
+    "submitted": "2026-01-28T18:34:25Z",
+    "last_revised": "2026-01-30T16:39:55Z",
+    "discovered_on": "2026-05-15",
+    "source": "arXiv",
+    "paper_url": "https://arxiv.org/abs/2601.20835",
+    "pdf_url": "https://arxiv.org/pdf/2601.20835",
+    "code": {
+      "status": "not_confirmed",
+      "url": null,
+      "notes": "Initial search did not confirm an official public GitHub repository. Keep checking during daily runs."
+    },
+    "duplicate_filter": {
+      "awesome_human_motion": "not_found_in_current_review",
+      "explicit_exclusions": "not_excluded"
+    },
+    "tags": [
+      "HSI",
+      "3D human-scene interaction",
+      "open-vocabulary",
+      "functional interaction",
+      "training-free"
+    ],
+    "notes": "Training-free framework for functionally correct 3D human-scene interaction generation from open-vocabulary task prompts."
   }
 ]
