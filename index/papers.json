@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Open-Vocabulary Functional 3D Human-Scene Interaction Generation",
+    "aliases": [
+      "FunHSI",
+      "Open-Vocabulary Functional 3D HSI"
+    ],
+    "paper_url": "https://arxiv.org/abs/2601.20835",
+    "code_url": null,
+    "project_url": "https://jliu4ai.github.io/projects/funhsi/",
+    "first_seen_date": "2026-05-16",
+    "last_updated_date": "2026-05-16",
+    "dedupe_status": "confirmed_new_vs_awesome_and_history",
+    "report_path": "reports/2026-05-16.md",
+    "notes": "Core HSI. Training-free open-vocabulary functional 3D human-scene interaction generation; author page exposes a code link, but no verifiable official public repository was confirmed in review."
+  },
+  {
+    "title": "UniCon3R: Contact-aware 3D Human-Scene Reconstruction from Monocular Video",
+    "aliases": [
+      "UniCon3R",
+      "Unified Contact-aware 4D Human-Scene Reconstruction from Monocular Video"
+    ],
+    "paper_url": "https://arxiv.org/abs/2604.19923",
+    "code_url": "https://github.com/surtantheta/UniCon3R",
+    "project_url": "https://surtantheta.github.io/UniCon3R/",
+    "first_seen_date": "2026-05-17",
+    "last_updated_date": "2026-05-17",
+    "dedupe_status": "confirmed_new_vs_awesome_and_history",
+    "report_path": "reports/2026-05-17.md",
+    "notes": "Core HSI reconstruction. Uses contact as an internal corrective cue for feed-forward online human-scene reconstruction. Official repository is public, but README still says full code/checkpoints are coming soon."
+  },
+  {
+    "title": "Human3R: Everyone Everywhere All at Once",
+    "aliases": [
+      "Human3R"
+    ],
+    "paper_url": "https://arxiv.org/abs/2510.06219",
+    "code_url": "https://github.com/fanegg/Human3R",
+    "project_url": "https://fanegg.github.io/Human3R/",
+    "first_seen_date": "2026-05-17",
+    "last_updated_date": "2026-05-17",
+    "dedupe_status": "confirmed_new_vs_awesome_and_history",
+    "report_path": "reports/2026-05-17.md",
+    "notes": "HSI reconstruction / joint human-scene-camera modeling. Official repository includes installation, inference, evaluation, and training documentation."
+  },
+  {
+    "title": "GenHSI: Controllable Generation of Human-Scene Interaction Videos",
+    "aliases": [
+      "GenHSI"
+    ],
+    "paper_url": "https://arxiv.org/abs/2506.19840",
+    "code_url": null,
+    "project_url": "https://kunkun0w0.github.io/project/GenHSI/",
+    "first_seen_date": "2026-05-17",
+    "last_updated_date": "2026-05-17",
+    "dedupe_status": "confirmed_new_vs_awesome_and_history",
+    "report_path": "reports/2026-05-17.md",
+    "notes": "Core HSI generation in video form. Public project page and paper are available, but no verifiable official public GitHub repository was confirmed in this run."
+  }
+]
