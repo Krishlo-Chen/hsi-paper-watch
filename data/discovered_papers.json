@@ -35,5 +35,111 @@
       "training-free"
     ],
     "notes": "Training-free framework for functionally correct 3D human-scene interaction generation from open-vocabulary task prompts."
+  },
+  {
+    "id": "arxiv:2604.19923",
+    "title": "UniCon3R: Contact-aware 3D Human-Scene Reconstruction from Monocular Video",
+    "short_name": "UniCon3R",
+    "authors": [
+      "Tanuj Sur",
+      "Shashank Tripathi",
+      "Nikos Athanasiou",
+      "Ha Linh Nguyen",
+      "Kai Xu",
+      "Michael J. Black",
+      "Angela Yao"
+    ],
+    "submitted": "2026-04-21T19:06:50Z",
+    "last_revised": null,
+    "discovered_on": "2026-05-17",
+    "source": "arXiv",
+    "paper_url": "https://arxiv.org/abs/2604.19923",
+    "pdf_url": "https://arxiv.org/pdf/2604.19923",
+    "code": {
+      "status": "official_repo_placeholder",
+      "url": "https://github.com/surtantheta/UniCon3R",
+      "notes": "Official repository exists, but the README still says code, checkpoints, and inference scripts will be released soon."
+    },
+    "duplicate_filter": {
+      "awesome_human_motion": "not_found_in_current_review",
+      "explicit_exclusions": "not_excluded"
+    },
+    "tags": [
+      "HSI",
+      "human-scene reconstruction",
+      "contact-aware reconstruction",
+      "monocular video"
+    ],
+    "notes": "Core HSI reconstruction; models contact as an internal corrective signal for feed-forward online reconstruction."
+  },
+  {
+    "id": "arxiv:2510.06219",
+    "title": "Human3R: Everyone Everywhere All at Once",
+    "short_name": "Human3R",
+    "authors": [
+      "Yue Chen",
+      "Xingyu Chen",
+      "Yuxuan Xue",
+      "Anpei Chen",
+      "Yuliang Xiu",
+      "Gerard Pons-Moll"
+    ],
+    "submitted": "2025-10-07T17:59:52Z",
+    "last_revised": null,
+    "discovered_on": "2026-05-17",
+    "source": "arXiv",
+    "paper_url": "https://arxiv.org/abs/2510.06219",
+    "pdf_url": "https://arxiv.org/pdf/2510.06219",
+    "code": {
+      "status": "official_repo_available",
+      "url": "https://github.com/fanegg/Human3R",
+      "notes": "Official repository includes installation, download, inference, evaluation, and training instructions."
+    },
+    "duplicate_filter": {
+      "awesome_human_motion": "not_found_in_current_review",
+      "explicit_exclusions": "not_excluded"
+    },
+    "tags": [
+      "HSI",
+      "human-scene reconstruction",
+      "joint reconstruction",
+      "monocular video"
+    ],
+    "notes": "Unified feed-forward human-scene-camera reconstruction in real time from monocular video."
+  },
+  {
+    "id": "arxiv:2506.19840",
+    "title": "GenHSI: Controllable Generation of Human-Scene Interaction Videos",
+    "short_name": "GenHSI",
+    "authors": [
+      "Zekun Li",
+      "Rui Zhou",
+      "Rahul Sajnani",
+      "Xiaoyan Cong",
+      "Daniel Ritchie",
+      "Srinath Sridhar"
+    ],
+    "submitted": "2025-06-24T17:58:04Z",
+    "last_revised": null,
+    "discovered_on": "2026-05-17",
+    "source": "arXiv",
+    "paper_url": "https://arxiv.org/abs/2506.19840",
+    "pdf_url": "https://arxiv.org/pdf/2506.19840",
+    "code": {
+      "status": "not_confirmed",
+      "url": null,
+      "notes": "Public project page exists, but no verifiable official GitHub repository was found during this run."
+    },
+    "duplicate_filter": {
+      "awesome_human_motion": "not_found_in_current_review",
+      "explicit_exclusions": "not_excluded"
+    },
+    "tags": [
+      "HSI",
+      "video generation",
+      "controllable generation",
+      "training-free"
+    ],
+    "notes": "Training-free long-form human-scene interaction video generation from a scene image, character references, and task text." 
   }
 ]
