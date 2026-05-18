@@ -56,5 +56,33 @@
     "dedupe_status": "confirmed_new_vs_awesome_and_history",
     "report_path": "reports/2026-05-17.md",
     "notes": "Core HSI generation in video form. Public project page and paper are available, but no verifiable official public GitHub repository was confirmed in this run."
+  },
+  {
+    "title": "HSImul3R: Physics-in-the-Loop Reconstruction of Simulation-Ready Human-Scene Interactions",
+    "aliases": [
+      "HSImul3R"
+    ],
+    "paper_url": "https://arxiv.org/abs/2603.15612",
+    "code_url": "https://github.com/yukangcao/HSImul3R",
+    "project_url": "https://yukangcao.github.io/HSImul3R/",
+    "first_seen_date": "2026-05-18",
+    "last_updated_date": "2026-05-18",
+    "dedupe_status": "confirmed_new_vs_awesome_and_history",
+    "report_path": "reports/2026-05-18.md",
+    "notes": "Core HSI reconstruction. Physics-in-the-loop optimization targets simulation-ready human-scene reconstructions, but the current public repository is still lightweight and mostly exposes the paper/project scaffold rather than a full runnable release."
+  },
+  {
+    "title": "InterPhys: Physics-aware Human Motion Synthesis in a Dynamic Scene",
+    "aliases": [
+      "InterPhys"
+    ],
+    "paper_url": "https://arxiv.org/abs/2605.01036",
+    "code_url": null,
+    "project_url": null,
+    "first_seen_date": "2026-05-18",
+    "last_updated_date": "2026-05-18",
+    "dedupe_status": "confirmed_new_vs_awesome_and_history",
+    "report_path": "reports/2026-05-18.md",
+    "notes": "Core-to-near-core HSI motion synthesis in dynamic scenes. The paper explicitly models human-object forces, human-scene forces, and internal body dynamics for physically grounded motion generation, but no verifiable official public project page or code repository was confirmed in this run."
   }
 ]
