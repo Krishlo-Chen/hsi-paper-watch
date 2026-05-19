@@ -80,9 +80,9 @@
     "code_url": null,
     "project_url": null,
     "first_seen_date": "2026-05-18",
-    "last_updated_date": "2026-05-18",
+    "last_updated_date": "2026-05-19",
     "dedupe_status": "confirmed_new_vs_awesome_and_history",
     "report_path": "reports/2026-05-18.md",
-    "notes": "Core-to-near-core HSI motion synthesis in dynamic scenes. The paper explicitly models human-object forces, human-scene forces, and internal body dynamics for physically grounded motion generation, but no verifiable official public project page or code repository was confirmed in this run."
+    "notes": "Core-to-near-core HSI motion synthesis in dynamic scenes. The paper explicitly models human-object forces, human-scene forces, and internal body dynamics for physically grounded motion generation; as of 2026-05-19, no verifiable official public project page or code repository was confirmed in follow-up review."
   }
 ]
