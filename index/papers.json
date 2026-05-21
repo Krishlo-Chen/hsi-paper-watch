@@ -84,5 +84,20 @@
     "dedupe_status": "confirmed_new_vs_awesome_and_history",
     "report_path": "reports/2026-05-18.md",
     "notes": "Core-to-near-core HSI motion synthesis in dynamic scenes. The paper explicitly models human-object forces, human-scene forces, and internal body dynamics for physically grounded motion generation; as of 2026-05-19, no verifiable official public project page or code repository was confirmed in follow-up review."
+  },
+  {
+    "title": "CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives",
+    "aliases": [
+      "CRISP",
+      "Contact-Guided Real2Sim"
+    ],
+    "paper_url": "https://arxiv.org/abs/2512.14696",
+    "code_url": "https://github.com/Z1hanW/CRISP-Real2Sim",
+    "project_url": "https://crisp-real2sim.github.io/CRISP-Real2Sim/",
+    "first_seen_date": "2026-05-21",
+    "last_updated_date": "2026-05-21",
+    "dedupe_status": "confirmed_new_vs_awesome_and_history",
+    "report_path": "reports/2026-05-21.md",
+    "notes": "Near-core to core HSI reconstruction / real2sim. Explicitly models human-scene contact, reconstructs interaction-relevant scene geometry including occluded support surfaces, and releases an official end-to-end pipeline plus RL transfer code."
   }
 ]
