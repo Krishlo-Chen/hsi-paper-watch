@@ -99,5 +99,20 @@
     "dedupe_status": "confirmed_new_vs_awesome_and_history",
     "report_path": "reports/2026-05-21.md",
     "notes": "Near-core to core HSI reconstruction / real2sim. Explicitly models human-scene contact, reconstructs interaction-relevant scene geometry including occluded support surfaces, and releases an official end-to-end pipeline plus RL transfer code."
+  },
+  {
+    "title": "GRAFT: Geometric Refinement and Fitting Transformer for Human Scene Reconstruction",
+    "aliases": [
+      "GRAFT",
+      "Geometric Refinement And Fitting Transformer"
+    ],
+    "paper_url": "https://arxiv.org/abs/2604.19624",
+    "code_url": "https://github.com/pradyumnaym/graft",
+    "project_url": "https://pradyumnaym.github.io/graft/",
+    "first_seen_date": "2026-05-22",
+    "last_updated_date": "2026-05-22",
+    "dedupe_status": "confirmed_new_vs_awesome_and_history",
+    "report_path": "reports/2026-05-22.md",
+    "notes": "Core HSI reconstruction. Replaces slow geometry fitting with a fast geometry-grounded transformer prior for physically plausible human-scene contact, but the official repository still marks code release as pending."
   }
 ]
