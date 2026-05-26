@@ -114,5 +114,35 @@
     "dedupe_status": "confirmed_new_vs_awesome_and_history",
     "report_path": "reports/2026-05-22.md",
     "notes": "Core HSI reconstruction. Replaces slow geometry fitting with a fast geometry-grounded transformer prior for physically plausible human-scene contact, but the official repository still marks code release as pending."
+  },
+  {
+    "title": "AHA! Animating Human Avatars in Diverse Scenes with Gaussian Splatting",
+    "aliases": [
+      "AHA!",
+      "AHA Animating Human Avatars in Diverse Scenes with Gaussian Splatting"
+    ],
+    "paper_url": "https://arxiv.org/abs/2511.09827",
+    "code_url": "https://github.com/miraymen/aha_codebase",
+    "project_url": null,
+    "first_seen_date": "2026-05-26",
+    "last_updated_date": "2026-05-26",
+    "dedupe_status": "pending_manual_review",
+    "report_path": "reports/2026-05-26.md",
+    "notes": "Edge-related to HSI. Official public repository exists but currently only contains a short placeholder README; the main contribution is scene-grounded avatar animation / rendering rather than core HSI generation or reconstruction."
+  },
+  {
+    "title": "FunREC: Reconstructing Functional 3D Scenes from Egocentric Interaction Videos",
+    "aliases": [
+      "FunREC",
+      "FunRec"
+    ],
+    "paper_url": "https://arxiv.org/abs/2604.05621",
+    "code_url": null,
+    "project_url": "https://functionalscenes.github.io/",
+    "first_seen_date": "2026-05-26",
+    "last_updated_date": "2026-05-26",
+    "dedupe_status": "pending_manual_review",
+    "report_path": "reports/2026-05-26.md",
+    "notes": "Edge-related but notable. The work reconstructs functional articulated scenes from egocentric interaction videos and is strongly interaction-aware, but its primary task is functional scene reconstruction rather than direct HSI generation or reconstruction; no verifiable official public code repository was confirmed in this run."
   }
 ]
