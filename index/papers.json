@@ -144,5 +144,34 @@
     "dedupe_status": "pending_manual_review",
     "report_path": "reports/2026-05-26.md",
     "notes": "Edge-related but notable. The work reconstructs functional articulated scenes from egocentric interaction videos and is strongly interaction-aware, but its primary task is functional scene reconstruction rather than direct HSI generation or reconstruction; no verifiable official public code repository was confirmed in this run."
+  },
+  {
+    "title": "SHARE: Scene-Human Aligned Reconstruction",
+    "aliases": [
+      "SHARE",
+      "Scene-Human Aligned REconstruction"
+    ],
+    "paper_url": "https://arxiv.org/abs/2510.15342",
+    "code_url": null,
+    "project_url": null,
+    "first_seen_date": "2026-05-27",
+    "last_updated_date": "2026-05-27",
+    "dedupe_status": "pending_manual_review",
+    "report_path": "reports/2026-05-27.md",
+    "notes": "Edge-related to HSI reconstruction. The paper grounds human motion with scene geometry and improves world-space alignment from monocular video, but its main framing is human placement / alignment rather than explicit interaction generation or contact-centric HSI modeling; no verifiable official public code release was confirmed in this run."
+  },
+  {
+    "title": "MOGRAS: Human Motion with Grasping in 3D Scenes",
+    "aliases": [
+      "MOGRAS"
+    ],
+    "paper_url": "https://arxiv.org/abs/2510.22199",
+    "code_url": null,
+    "project_url": null,
+    "first_seen_date": "2026-05-27",
+    "last_updated_date": "2026-05-27",
+    "dedupe_status": "pending_manual_review",
+    "report_path": "reports/2026-05-27.md",
+    "notes": "Edge-related to HSI. The work is scene-aware and interaction-relevant, but is better framed as a full-body grasping dataset plus adaptation baseline in 3D scenes than as a core HSI generation or reconstruction method; no verifiable official public code repository was confirmed in this run."
   }
 ]
