@@ -1,0 +1,69 @@
+{
+  "id": "arxiv:2604.19673v2",
+  "title": "InHabit: Leveraging Image Foundation Models for Scalable 3D Human Placement",
+  "short_name": null,
+  "authors": [
+    "Nikita Kister",
+    "Pradyumna YM",
+    "István Sárándi",
+    "Jiayi Wang",
+    "Anna Khoreva",
+    "Gerard Pons-Moll"
+  ],
+  "submitted": "2026-04-21T16:53:18Z",
+  "last_revised": "2026-05-26T17:30:41Z",
+  "discovered_on": "2026-05-27",
+  "source": "arXiv",
+  "paper_url": "http://arxiv.org/abs/2604.19673v2",
+  "pdf_url": "https://arxiv.org/pdf/2604.19673v2",
+  "code": {
+    "status": "candidates_found",
+    "url": "https://github.com/BaiShuanghao/my_arXiv_daily",
+    "candidates": [
+      {
+        "full_name": "BaiShuanghao/my_arXiv_daily",
+        "url": "https://github.com/BaiShuanghao/my_arXiv_daily",
+        "description": null,
+        "stars": 179,
+        "updated_at": "2026-05-25T13:45:36Z"
+      },
+      {
+        "full_name": "nibox/Inhabit",
+        "url": "https://github.com/nibox/Inhabit",
+        "description": null,
+        "stars": 8,
+        "updated_at": "2026-05-13T09:10:24Z"
+      },
+      {
+        "full_name": "jiangnan030-del/ai-arxiv-daily",
+        "url": "https://github.com/jiangnan030-del/ai-arxiv-daily",
+        "description": "Auto-track AI/LLM papers daily from arXiv - Large Language Model, AI Agent, RAG, Prompt Engineering, RLHF, Multimodal, Code Generation, Fine-tuning",
+        "stars": 0,
+        "updated_at": "2026-05-25T11:50:56Z"
+      },
+      {
+        "full_name": "xxyyyu/article",
+        "url": "https://github.com/xxyyyu/article",
+        "description": "article_lookfor",
+        "stars": 0,
+        "updated_at": "2026-05-17T04:55:06Z"
+      },
+      {
+        "full_name": "suruoxi/WorldModel-VLA-arxiv-daily",
+        "url": "https://github.com/suruoxi/WorldModel-VLA-arxiv-daily",
+        "description": "World Model and VLA related arxiv papers",
+        "stars": 0,
+        "updated_at": "2026-05-25T11:40:52Z"
+      }
+    ]
+  },
+  "duplicate_filter": {
+    "awesome_human_motion": "not_found",
+    "explicit_exclusions": "not_excluded"
+  },
+  "tags": [
+    "HSI",
+    "human-scene interaction"
+  ],
+  "summary": "Training embodied agents to understand 3D scenes as humans do requires large-scale data of people meaningfully interacting with diverse environments, yet such data is scarce. Real-world capture is costly and limited to controlled settings, while existing synthetic datasets rely on simple geometric heuristics, ignoring rich scene context. In contrast, 2D foundation models trained at internet scale have acquired commonsense knowledge of human-environment interactions. To transfer this knowledge to 3D, we introduce InHabit, an automatic and scalable data generator for populating 3D scenes with interacting humans. InHabit follows a render-generate-lift principle: given a rendered 3D scene, a vision-language model proposes contextually meaningful actions, an image-editing model inserts a human, and an optimization procedure lifts the edited result into physically plausible SMPL-X bodies aligned with the scene geometry. Applied to Habitat-Matterport3D, InHabit produces InHabitants, the first large-scale photorealistic 3D human-scene interaction dataset, with 78K samples across $\\sim$800 building-scale scenes with complete 3D geometry, SMPL-X bodies, and images. Augmenting standard training data with InHabitants improves RGB-based 3D human-scene reconstruction and contact estimation, and in a perceptual user study our data is preferred in 78% of cases over prior art."
+}
