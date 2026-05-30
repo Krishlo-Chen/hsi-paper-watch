@@ -1,5 +1,52 @@
 [
   {
+    "id": "arxiv:2605.30338v1",
+    "title": "REST3D: Reconstructing Physically Stable 3D Scenes from a Single Image",
+    "short_name": null,
+    "authors": [
+      "Xiaoxuan Ma",
+      "Jiashun Wang",
+      "Nicolas Ugrinovic",
+      "Yehonathan Litman",
+      "Kris Kitani"
+    ],
+    "submitted": "2026-05-28T17:59:01Z",
+    "last_revised": "2026-05-28T17:59:01Z",
+    "discovered_on": "2026-05-30",
+    "source": "arXiv",
+    "paper_url": "http://arxiv.org/abs/2605.30338v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30338v1",
+    "code": {
+      "status": "candidates_found",
+      "url": "https://github.com/ShirleyMaxx/REST3D",
+      "candidates": [
+        {
+          "full_name": "ShirleyMaxx/REST3D",
+          "url": "https://github.com/ShirleyMaxx/REST3D",
+          "description": "From a single casual image to a visually consistent and physically stable interactive 3D scene.",
+          "stars": 36,
+          "updated_at": "2026-05-30T04:34:53Z"
+        },
+        {
+          "full_name": "randomrisk/Awesome-DigitalTwin-WorldModels",
+          "url": "https://github.com/randomrisk/Awesome-DigitalTwin-WorldModels",
+          "description": "Daily arXiv Updates: Digital Twins, World Models, and Medical Simulation AI",
+          "stars": 0,
+          "updated_at": "2026-05-30T04:35:46Z"
+        }
+      ]
+    },
+    "duplicate_filter": {
+      "awesome_human_motion": "not_found",
+      "explicit_exclusions": "not_excluded"
+    },
+    "tags": [
+      "HSI",
+      "human-scene interaction"
+    ],
+    "summary": "Reconstructing physically stable 3D scenes from a single RGB image enables casual images to be converted into simulation-ready digital assets for applications such as immersive interaction and content creation. However, existing single-image reconstruction methods fall short in capturing the physical structure of a scene. As a result, they often produce geometrically plausible but physically inconsistent results, including object floating and penetration, which lead to unstable behavior in physics simulations. Image-conditioned scene generation methods improve physical plausibility but often rely on strong scene priors, yielding plausible yet inaccurate object arrangements that fail to match the input image. We propose REST3D, a single-image reconstruction framework that can reconstruct physically stable 3D scenes by integrating physical scene understanding with physics-constrained refinement. We first introduce an agentic physical scene understanding technique that constructs a scene-tree representation capturing object physical states and inter-object relationships from a gravity-support perspective, providing a structural prior for reconstruction. Leveraging this structure, we initialize the scene using image-to-3D models, followed by scene-tree-guided alignment and physics-constrained optimization to resolve physical violations while preserving visual consistency with the input image. Experiments show that our method significantly reduces physical errors and improves simulation stability on both synthetic and real-world datasets while maintaining strong reconstruction quality. We further demonstrate the reconstructed scenes in VR-based human-object interaction, showing their potential for immersive applications."
+  },
+  {
     "id": "arxiv:2604.19673v2",
     "title": "InHabit: Leveraging Image Foundation Models for Scalable 3D Human Placement",
     "short_name": null,
