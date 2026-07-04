@@ -1,0 +1,65 @@
+{
+  "id": "arxiv:2607.02034v1",
+  "title": "ComplexMimic: Human-Scene Interaction Imitation in Complex 3D Environments",
+  "short_name": null,
+  "authors": [
+    "Lu Pan",
+    "Hongwei Zhao"
+  ],
+  "submitted": "2026-07-02T11:01:20Z",
+  "last_revised": "2026-07-02T11:01:20Z",
+  "discovered_on": "2026-07-04",
+  "source": "arXiv",
+  "paper_url": "http://arxiv.org/abs/2607.02034v1",
+  "pdf_url": "https://arxiv.org/pdf/2607.02034v1",
+  "code": {
+    "status": "candidates_found",
+    "url": "https://github.com/BaiShuanghao/my_arXiv_daily",
+    "candidates": [
+      {
+        "full_name": "BaiShuanghao/my_arXiv_daily",
+        "url": "https://github.com/BaiShuanghao/my_arXiv_daily",
+        "description": null,
+        "stars": 192,
+        "updated_at": "2026-07-04T03:24:27Z"
+      },
+      {
+        "full_name": "Tavish9/awesome-daily-AI-arxiv",
+        "url": "https://github.com/Tavish9/awesome-daily-AI-arxiv",
+        "description": "🚀 Daily AI Research Digest: Tracking breakthroughs in AI/NLP/CV/Robotics with dynamic updates and paper navigation.",
+        "stars": 111,
+        "updated_at": "2026-07-03T05:59:09Z"
+      },
+      {
+        "full_name": "cold-young/robotics_paper_daily",
+        "url": "https://github.com/cold-young/robotics_paper_daily",
+        "description": "Dexterous Manipulation (Customized version of \"jiangranlv/robotics_arXiv_daily\")",
+        "stars": 5,
+        "updated_at": "2026-07-04T00:41:20Z"
+      },
+      {
+        "full_name": "memoryunreal/awesome-whole-body-control",
+        "url": "https://github.com/memoryunreal/awesome-whole-body-control",
+        "description": null,
+        "stars": 3,
+        "updated_at": "2026-07-03T12:12:19Z"
+      },
+      {
+        "full_name": "LuPan23/ComplexMimic",
+        "url": "https://github.com/LuPan23/ComplexMimic",
+        "description": "Official implementation of \"ComplexMimic: Human-Scene Interaction Imitation in Complex 3D Environments\"",
+        "stars": 1,
+        "updated_at": "2026-07-03T08:18:47Z"
+      }
+    ]
+  },
+  "duplicate_filter": {
+    "awesome_human_motion": "not_found",
+    "explicit_exclusions": "not_excluded"
+  },
+  "tags": [
+    "HSI",
+    "human-scene interaction"
+  ],
+  "summary": "Physics-based Human-Scene Interaction (HSI) imitation learning is crucial for embodied intelligence as it bridges the gap between kinematic 3D motions and real-world dynamics. However, most existing methods focus on simplified scene settings, leaving complex environments largely unexplored, which limits their applicability in real-world scenarios. In this paper, we focus on HSI mimicry in complex environments. Under this complex setting, we observe an inherent trade-off between successfully performing interaction and maintaining natural, physically plausible motions. To address this challenge, we propose ComplexMimic, a framework that reconstructs diverse HSI by interpreting imperfect MoCap data. First, we introduce a Dual Flow Strategy, which learns two complementary experts: an imitation expert for accurate motion tracking and an interaction expert for collision-aware adaptation in complex scenes. Second, naive multi-expert distillation, which treats all experts equally, often under-samples challenging behaviors, limiting effective learning. To mitigate this issue, we propose a difficulty-aware distillation strategy that adaptively weights supervision and prioritizes hard-yet-learnable trajectories guided by failure statistics and learning progress signals. Extensive experiments on three benchmark datasets demonstrate that our approach outperforms current state-of-the-art methods. Our implementation is available at https://github.com/LuPan23/ComplexMimic."
+}
