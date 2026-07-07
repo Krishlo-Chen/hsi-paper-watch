@@ -1,0 +1,56 @@
+{
+  "id": "arxiv:2508.14891v3",
+  "title": "GaussianArt: Unified Modeling of Geometry and Motion for Articulated Objects",
+  "short_name": null,
+  "authors": [
+    "Licheng Shen",
+    "Saining Zhang",
+    "Honghan Li",
+    "Peilin Yang",
+    "Zihao Huang",
+    "Zongzheng Zhang",
+    "Hao Zhao"
+  ],
+  "submitted": "2025-08-20T17:59:08Z",
+  "last_revised": "2026-07-04T18:05:03Z",
+  "discovered_on": "2026-07-07",
+  "source": "arXiv",
+  "paper_url": "http://arxiv.org/abs/2508.14891v3",
+  "pdf_url": "https://arxiv.org/pdf/2508.14891v3",
+  "code": {
+    "status": "candidates_found",
+    "url": "https://github.com/shenlc19/GaussianArt",
+    "candidates": [
+      {
+        "full_name": "shenlc19/GaussianArt",
+        "url": "https://github.com/shenlc19/GaussianArt",
+        "description": null,
+        "stars": 57,
+        "updated_at": "2026-06-30T08:44:59Z"
+      },
+      {
+        "full_name": "harpreetsahota204/awesome_3DVision_2026_conference",
+        "url": "https://github.com/harpreetsahota204/awesome_3DVision_2026_conference",
+        "description": "Awesome Papers at the 2026 3D Vision Conference in Vancouver, BC",
+        "stars": 18,
+        "updated_at": "2026-05-11T17:33:55Z"
+      },
+      {
+        "full_name": "stonecodecs/gaussianart-temp",
+        "url": "https://github.com/stonecodecs/gaussianart-temp",
+        "description": "Temporary directory for GaussianArt benchmarking",
+        "stars": 0,
+        "updated_at": "2026-05-18T18:59:32Z"
+      }
+    ]
+  },
+  "duplicate_filter": {
+    "awesome_human_motion": "not_found",
+    "explicit_exclusions": "not_excluded"
+  },
+  "tags": [
+    "HSI",
+    "human-scene interaction"
+  ],
+  "summary": "Reconstructing articulated objects is essential for building digital twins of interactive environments. However, prior methods typically decouple geometry and motion by first reconstructing object shape in distinct states and then estimating articulation through post-hoc alignment. This separation complicates the reconstruction pipeline and restricts scalability, especially for objects with complex, multi-part articulation. We introduce a unified representation that jointly models geometry and motion using articulated 3D Gaussians. This formulation improves robustness in motion decomposition and supports articulated objects with up to 20 parts, significantly outperforming prior approaches that often struggle beyond 2--3 parts due to brittle initialization. To systematically assess scalability and generalization, we propose MPArt-90, a new benchmark consisting of 90 articulated objects across 20 categories, each with diverse part counts and motion configurations. Extensive experiments show that our method consistently achieves superior accuracy in part-level geometry reconstruction and motion estimation across a broad range of object types. We further demonstrate applicability to downstream tasks such as robotic simulation and human-scene interaction modeling, highlighting the potential of unified articulated representations in scalable physical modeling."
+}
