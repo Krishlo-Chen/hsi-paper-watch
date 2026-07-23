@@ -1,0 +1,49 @@
+{
+  "id": "arxiv:2607.19517v1",
+  "title": "Crowd4D: Scene-Aware Monocular 4D Crowd Reconstruction",
+  "short_name": null,
+  "authors": [
+    "Hongbo Kang",
+    "Tianyi Zhou",
+    "Qingyang Yang",
+    "Hongwei Wen",
+    "Jing Huang",
+    "Yu-Kun Lai",
+    "Kun Li"
+  ],
+  "submitted": "2026-07-21T19:03:10Z",
+  "last_revised": "2026-07-21T19:03:10Z",
+  "discovered_on": "2026-07-23",
+  "source": "arXiv",
+  "paper_url": "http://arxiv.org/abs/2607.19517v1",
+  "pdf_url": "https://arxiv.org/pdf/2607.19517v1",
+  "code": {
+    "status": "candidates_found",
+    "url": "https://github.com/KHB1698/DyCrowd",
+    "candidates": [
+      {
+        "full_name": "KHB1698/DyCrowd",
+        "url": "https://github.com/KHB1698/DyCrowd",
+        "description": "TPAMI 2025",
+        "stars": 51,
+        "updated_at": "2026-06-25T13:00:50Z"
+      },
+      {
+        "full_name": "KHB1698/Crowd4D",
+        "url": "https://github.com/KHB1698/Crowd4D",
+        "description": "An Optimization Framework for Generalizable Crowd Reconstruction, Published in ICML 2026",
+        "stars": 31,
+        "updated_at": "2026-06-19T12:54:43Z"
+      }
+    ]
+  },
+  "duplicate_filter": {
+    "awesome_human_motion": "not_found",
+    "explicit_exclusions": "not_excluded"
+  },
+  "tags": [
+    "HSI",
+    "human-scene interaction"
+  ],
+  "summary": "Recovering scene-consistent 4D crowd motion from monocular video in large-scale scenes remains challenging due to severe depth ambiguity and complex scene geometry. Existing monocular crowd reconstruction methods typically rely on single-plane assumptions, leading to unreliable metric scale and spatial drift under complex terrain. We propose Crowd4D, the first scene-aware 4D crowd reconstruction framework that jointly optimizes the crowd and scene from a monocular RGB video in large-scale scenes. Crowd4D explicitly incorporates scene geometry and ensures consistency across image and scene spaces via a multi-stage optimization strategy. A key bottleneck of this task lies in accurate human-scene alignment, particularly in scale and position. However, human and scene reconstructions are typically decoupled. To address this, we introduce the Human-Scene Interaction Proxy, abbreviated as HSIP, as an intermediate representation derived from Scene Interaction Point Clouds and a Scene Interaction Surface, abbreviated as SIPC and SIS. These representations encode explicit scene-aware geometric priors and redefine the optimization space for large-scale monocular 4D crowd reconstruction. To further improve temporal stability under occlusions, we introduce Crowd Structural Coherence Regularization, abbreviated as CSCR, which leverages HSIP-based spatial priors to impose soft temporal consistency on pairwise relative displacements and directions within local crowd neighborhoods. Extensive experiments demonstrate that Crowd4D consistently outperforms existing state-of-the-art methods and enables robust monocular 4D crowd reconstruction in complex, large-scale real-world scenes."
+}
