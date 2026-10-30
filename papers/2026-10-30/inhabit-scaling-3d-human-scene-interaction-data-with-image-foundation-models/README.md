@@ -1,0 +1,11 @@
+# Paper — InHabit: Scaling 3D Human-Scene Interaction Data With Image Foundation Models
+
+- **Paper:** http://arxiv.org/abs/2604.19673v3
+- **PDF:** https://arxiv.org/pdf/2604.19673v3
+- **Discovered on:** 2026-10-30
+- **Code status:** not_confirmed
+- **Code URL:** not confirmed
+
+## Summary
+
+Embodied AI and human-centric 3D scene understanding require data of people meaningfully interacting with diverse environments, yet such data remains scarce. Real-world capture has steadily pushed toward more scenes, but is bound to studios and at most around a hundred scenes, while synthetic datasets scale easily but place people without regard to what the scene affords. We argue that useful human-scene interaction data requires diversity in both scenes and interactions, and we show this with our proposed data engine InHabit. InHabit is a fully automatic engine that renders an existing 3D scene, uses 2D foundation models to propose and depict context-appropriate interactions, and lifts them into SMPL-X bodies, where the known scene geometry makes lifting well-constrained. Applied to Habitat-Matterport3D, InHabit produces InHabitants, which pairs photorealistic images with SMPL-X bodies and complete scene geometry across ~6.6k rooms, about 60x more scenes than the largest captured dataset. We illustrate the quality and value of such large-scale human-scene interaction data through a variety of experiments. In a perceptual study, our interactions are preferred over two prior placement methods in 78% of cases. Across three tasks - 1) contact estimation, 2) human-scene reconstruction, and 3) generating humans in scenes - training with InHabitants outperforms training on synthetic data with exact ground truth (BEDLAM), motion-capture data (TRUMANS), and real RGB-D captures (PROX); e.g., GRAFT trained on InHabitants reaches a contact F1 of 0.594 on PROX, versus 0.492 when trained on PROX itself. Project page: https://virtualhumans.mpi-inf.mpg.de/inhabit/
