@@ -1,0 +1,38 @@
+{
+  "id": "arxiv:2611.25005v1",
+  "title": "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback",
+  "short_name": null,
+  "authors": [
+    "Yao Zhang",
+    "Zhuchenyang Liu",
+    "Yu Xiao"
+  ],
+  "submitted": "2026-11-18T18:29:20Z",
+  "last_revised": "2026-11-18T18:29:20Z",
+  "discovered_on": "2026-11-20",
+  "source": "arXiv",
+  "paper_url": "http://arxiv.org/abs/2611.25005v1",
+  "pdf_url": "https://arxiv.org/pdf/2611.25005v1",
+  "code": {
+    "status": "candidates_found",
+    "url": "https://github.com/yaozhang182/inhabitant",
+    "candidates": [
+      {
+        "full_name": "yaozhang182/inhabitant",
+        "url": "https://github.com/yaozhang182/inhabitant",
+        "description": "Inhabitant: an agent framework for long-horizon human-scene interaction with spatial control and quantitative feedback, and the Inhabit benchmark",
+        "stars": 0,
+        "updated_at": "2026-11-18T18:38:03Z"
+      }
+    ]
+  },
+  "duplicate_filter": {
+    "awesome_human_motion": "not_found",
+    "explicit_exclusions": "not_excluded"
+  },
+  "tags": [
+    "HSI",
+    "human-scene interaction"
+  ],
+  "summary": "Recent work on human-scene interaction (HSI) generation moves from single interactions to long-horizon interaction, where a language-model agent plans and executes a sequence of interactions in a 3D scene under one instruction. However, existing agents struggle in challenging everyday scenarios (e.g., picking up a toy and throwing it into a basket) because they lack spatial control over the motion and quantitative feedback on its execution, and they often fail to complete the interaction sequence. To address these gaps, we present Inhabitant, a training-free agent framework in which the agent specifies each motion through positions, paths and poses, measures how the executed interaction deviates from its intent, and revises the control specification accordingly. For an extensive evaluation in such scenarios, we build Inhabit, a benchmark of 75 household tasks in 31 furniture layouts of an apartment, in which every task chains one to three goals on movable objects and is carried out by the whole body, excluding fingers. On Inhabit, Inhabitant completes 98.7\\% of the tasks with Claude Opus 5.5, and 93.3\\% and 82.7\\% with Claude Sonnet 5.5 and Gemini 4 Argon, respectively. Ablations confirm that without spatial control the agent fails most tasks, and without quantitative feedback its motion becomes less precise. Code is available on the project page."
+}
